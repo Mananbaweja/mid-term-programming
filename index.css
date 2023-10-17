@@ -1,0 +1,100 @@
+/* Styles for the container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the header */
+  .header {
+    text-align: center; /* Center align the content horizontally */
+  }
+  
+  .header h1,
+  .header h2 {
+    margin: 0; /* Remove any default margins */
+  }
+  
+  
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  .header h6 {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Styles for the news section */
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Styles for individual articles */
+  .article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .articlecontent h2 {
+    font-size: 24px;
+  }
+  
+  .articlecontent p {
+    font-size: 16px;
+  }
+  
+  /* Styles for the sidebar */
+  .sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar .pins {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .pins h2 {
+    font-size: 18px;
+  }
+  
+  .sidebar .pins img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .sidebar .pins p {
+    font-size: 14px;
+  }
+  
+  /* Styles for the footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .bottomlinks h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .bottomlinks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bottomlinks ul li {
+    margin-bottom: 5px;
+  }
+  
